@@ -1,0 +1,8 @@
+apiVersion: v4
+kind: Secret
+metadata:
+  name: mongo-secret
+type: Opaque
+data:
+  mongo-root-username: YWxsYW4=  
+  mongo-root-password: Y2hlbg==
